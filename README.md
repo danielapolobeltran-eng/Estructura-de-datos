@@ -23,7 +23,7 @@ namespace pp
         }
         public static void Main(string[] args) {
             //llamar a la procedimiento ImprimirCabezera
-            ImprimirCabezera("fundamentos de Programacion", 1, "Joimer Rivas");
+            ImprimirCabezera("fundamentos de Programacion", 1, "Daniela polo");
 
         }
     }
