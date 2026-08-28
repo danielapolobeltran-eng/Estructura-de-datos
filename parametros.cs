@@ -16,14 +16,24 @@ public class Program
         Console.WriteLine($"La potencia de {num1} elevado a {potencia} es: {result}");
     }
 
+    static void ModificarValor(int n){
+        n = n + 1;
+        Console.WriteLine($"Dentro del metodo: {n}");
+    }
+
+
+    
     public static void Main(string[] args){
         int x = 12, y = 3;
 
         ImprimirSuma(y, x); //y, x (argumjentos actuales)
         ImprimirSuma(1000, -1); //1000, -1 (argumentos literales)
         MostrarPotenciaX(x,y);
-    }    
 
+        int edad = 18;
+        Console.WriteLine($"Antes del metodo: {edad}");
+        ModificarValor(edad);
+        Console.WriteLine($"Despues de Metodo: {edad}");
 
 
 }
