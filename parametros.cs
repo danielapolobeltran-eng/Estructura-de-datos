@@ -14,7 +14,20 @@ public class Program
     public static void MostrarPotenciaX(double num1, double potencia){
         double result = Math.Pow( num1, potencia);
         Console.WriteLine($"La potencia de {num1} elevado a {potencia} es: {result}");
-    }
+    }gw
+
+    ehtrh
+    eh
+    ehet
+    jhaejt
+    reyk
+    ray
+    akry
+    af
+    dfzc
+    CXb
+    dfx
+    fx
 
     public static void Main(string[] args){
         int x = 12, y = 3;
@@ -24,6 +37,6 @@ public class Program
         MostrarPotenciaX(x,y);
     }    
 
-    
+
 
 }
