@@ -7,7 +7,7 @@ class Program
         int CANTIDAD = 4;
 
         // Tus 4 estudiantes ya fijos
-        string[] nombres = new string[] { "Daniela", "Educarin", "Santiago", "Milena" };
+        string[] nombres = new string[] { "Daniela", "Educarin", "Santiago", "Milena", "juancho", "luis", "gago", "miler", "deiby", "cheo", "martin", "migue", "peña", "sobri", "shay", "sofia", "patricia", "polo", "piraquive", "alfonso", "diego", "cielo" };
         double[] calificaciones = new double[CANTIDAD];
 
         Console.WriteLine($"--- REGISTRO DE {CANTIDAD} ESTUDIANTES ---");
